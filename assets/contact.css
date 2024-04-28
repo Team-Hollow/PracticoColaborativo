@@ -77,3 +77,33 @@ footer {
 :root {
   --bs-border-color: #eaded0 !important;
 }
+
+
+/* Main */
+.card {
+  background-color: #2a4456 !important;
+}
+
+.card-body {
+  background-color: #2a4456;
+}
+
+#sendmsj {
+  font-family: 'holaholo', sans-serif;
+  background-color: #eaded0; 
+  color: #2a4456; 
+  border-radius: 5px;
+}
+
+#sendmsj:hover{
+  background-color: #58a7a2;
+}
+
+label {
+  font-family: 'holaholo', sans-serif;
+  color: #eaded0;
+}
+
+main h2 {
+  font-family: 'holaholo', sans-serif;
+}

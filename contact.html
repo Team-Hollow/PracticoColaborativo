@@ -59,9 +59,95 @@
     <!-- Navbar -->
 
     <!-- Main -->
-    <div class="container flex-fill">
+    <main class="container flex-fill">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center flex-column mb-2">
+                <div class="col-lg-7 mx-auto">
+                <hr>
+                <div class="card mt-2 mx-auto p-4">
+                    <h2 class="text-center text-uppercase">Queremos saber su opinion !</h2>
+                    <div class="card-body">
+                        <div class = "container">
+                            
+                            <!--Form Agrupados en grupo de dos-->
+                            <form id="contact-form">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-sm-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="form_nombre">Nombre</label>
+                                                <input id="form_nombre" type="text" name="nombre" class="form-control" placeholder="Escriba su nombre" required="required"">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-sm-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="form_apellido">Apellido</label>
+                                                <input id="form_apellido" type="text" name="apellido" class="form-control" placeholder="Escriba su apellido" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-sm-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="form_email">Email</label>
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="test@test.com" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-sm-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="form_date">Fecha de Nacimiento</label>
+                                                <input id="form_date" type="date" name="date" class="form-control" placeholder="test@test.com" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Select's de las Series -->
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-sm-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="form_serie">Serie que más le gustó</label>
+                                                <select id="form_serie" name="serie" class="form-control" required="required">
+                                                    <option value="" selected disabled>-- Seleccione su serie --</option>
+                                                    <option >Ey Arnold!</option>
+                                                    <option >Recreo</option>
+                                                    <option >Ed Edd y Eddy</option>
+                                                    <option >Billy y Mandy</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-sm-6 col-lg-6">
+                                            <div class="form-group">
+                                                <label for="form_serie">Serie que menos le gustó</label>
+                                                <select id="form_serie" name="serie" class="form-control" required="required">
+                                                    <option value="" selected disabled>-- Serie que menos le gustó --</option>
+                                                    <option >Ey Arnold!</option>
+                                                    <option >Recreo</option>
+                                                    <option >Ed Edd y Eddy</option>
+                                                    <option >Billy y Mandy</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form_message">¿Faltó alguna serie?</label>
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="..." rows="4"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 d-flex justify-content-around flex-column">
+                                            <input type="submit" class="btn btn-send pt-1 mt-2 btn-block" id="sendmsj" value="Send Message" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+        </div>
+    </main>
+    
+    <!-- Main -->
 
     <!-- Footer -->
     <footer class="text-center text-lg-start6">
