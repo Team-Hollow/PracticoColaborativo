@@ -1,17 +1,18 @@
+/* Fonts */
 @import url("https://fonts.cdnfonts.com/css/wicked-mouse");
 @import url("https://fonts.cdnfonts.com/css/acme");
+@import url("https://fonts.cdnfonts.com/css/baksosapi-pro");
+@import url("https://fonts.cdnfonts.com/css/holaholo");
 
+/* Body */
 body {
-  background-image: url(img/bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat !important;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #d3b98b !important;
 }
 
+/* Navbar */
 .navbar {
   min-height: 100px;
-  background: url(img/nav-bg.png);
+  background: #2a4456;
 }
 .navbar-brand {
   margin: 0 !important;
@@ -19,37 +20,48 @@ body {
 .navbar-brand img {
   width: 200px !important;
 }
-.nav-item {
-  width: 150px;
-}
 .navbar-nav {
   align-items: center;
 }
-.navbar-collapse.show {
-  background-color: #f0991e !important;
-  transition: 0.1s linear;
-  margin-top: 15px;
-  background-repeat: no-repeat;
+.fa-bars {
+  color: #eaded0;
 }
 .navbar .navbar-nav .nav-link {
-  font-family: "Wicked Mouse", sans-serif;
-  color: #ac3168;
-  font-size: 20px !important;
+  font-family: "holaholo", sans-serif;
+  color: #eaded0;
+  font-size: 25px !important;
   font-size: 1.1em;
   padding: 0.5em 1em;
 }
-
-footer {
-  font-family: "Acme", sans-serif;
-  font-size: larger;
-  color: #ac3168;
-  font-weight: 900;
-  background: ;
-  background-position: center;
-  background-size: cover;
+.nav-link:hover {
+  color: #58a7a2 !important;
+  transition: 0.1s linear;
 }
-.top-f {
-  background-image: url(img/footer-top.png);
+
+/* Footer */
+footer {
+  font-family: "holaholo", sans-serif;
+  font-size: medium;
+  color: #eaded0;
+  background: #6e1d1d;
+}
+.iconos {
+  font-size: 1.5rem;
+}
+.fab:hover {
+  color: #d3b98b;
+  transition: 0.1s linear;
+}
+.f-links p:hover {
+  text-decoration: underline;
+  color: #d3b98b;
+  transition: 0.1s linear;
+}
+.copyright {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.copyright a:hover {
+  color: #d3b98b !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -60,4 +72,8 @@ footer {
     margin-right: 0;
     padding: 0 1em;
   }
+}
+
+:root {
+  --bs-border-color: #eaded0 !important;
 }
