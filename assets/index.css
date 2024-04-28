@@ -1,0 +1,63 @@
+@import url("https://fonts.cdnfonts.com/css/wicked-mouse");
+@import url("https://fonts.cdnfonts.com/css/acme");
+
+body {
+  background-image: url(img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  min-height: 100px;
+  background: url(img/nav-bg.png);
+}
+.navbar-brand {
+  margin: 0 !important;
+}
+.navbar-brand img {
+  width: 200px !important;
+}
+.nav-item {
+  width: 150px;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar-collapse.show {
+  background-color: #f0991e !important;
+  transition: 0.1s linear;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+}
+.navbar .navbar-nav .nav-link {
+  font-family: "Wicked Mouse", sans-serif;
+  color: #ac3168;
+  font-size: 20px !important;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+}
+
+footer {
+  font-family: "Acme", sans-serif;
+  font-size: larger;
+  color: #ac3168;
+  font-weight: 900;
+  background: ;
+  background-position: center;
+  background-size: cover;
+}
+.top-f {
+  background-image: url(img/footer-top.png);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+}
