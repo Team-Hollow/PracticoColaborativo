@@ -8,6 +8,8 @@
 body {
   min-height: 100vh;
   background-color: #d3b98b !important;
+  background: rgb(74,121,154);
+  background: linear-gradient(135deg, rgba(74,121,154,1) 31%, rgba(234,222,208,1) 87%);
 }
 
 /* Navbar */
@@ -43,7 +45,7 @@ footer {
   font-family: "holaholo", sans-serif;
   font-size: medium;
   color: #eaded0;
-  background: #6e1d1d;
+  background: #2a4456;
 }
 .iconos {
   font-size: 1.5rem;
@@ -84,6 +86,7 @@ footer {
 /* Estilos del formulario */
 .card {
   background-color: #2a4456 !important;
+  border: 2px solid #6e1d1d !important;
 }
 
 .card-body {
@@ -97,6 +100,7 @@ label {
 
 main h2 {
   font-family: 'holaholo', sans-serif;
+  color: #eaded0;
 }
 
 /* Estilo del botón */
