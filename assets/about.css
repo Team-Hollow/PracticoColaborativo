@@ -37,12 +37,46 @@ body {
   color: #58a7a2 !important;
   transition: 0.1s linear;
 }
+.container{
+  font-family: "holaholo", sans-serif;
+  width: 90%;
+  margin: 5px auto;
+  padding: 10px 20px;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-image{
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+}
+.about-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.about-text{
+  flex: 1;
+}
+.about-text h1{
+  color: #6e1d1d;
+}
+.about-text h5{
+  color: #fffdfa;
+}
+.about-text span{
+  color: #6e1d1d;
+}
 
 /* Footer */
 footer {
   font-family: "holaholo", sans-serif;
   font-size: medium;
-  color: #eaded0;
+  color: #ece8e3;
   background: #6e1d1d;
 }
 .iconos {
