@@ -6,12 +6,12 @@
 
 /* Body */
 body {
+  min-height: 100vh;
   background-color: #d3b98b !important;
 }
 
 /* Navbar */
 .navbar {
-  min-height: 100px;
   background: #2a4456;
 }
 .navbar-brand {
