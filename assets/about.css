@@ -6,13 +6,13 @@
 
 /* Body */
 body {
-  background-color: #d3b98b !important;
+  background: linear-gradient(to right, #e05b5b, #f3f35a) !important;
 }
 
 /* Navbar */
 .navbar {
   min-height: 100px;
-  background: #2a4456;
+  background: #490f0f;
 }
 .navbar-brand {
   margin: 0 !important;
@@ -58,6 +58,7 @@ body {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 3px;
 }
 .about-text{
   flex: 1;
@@ -71,7 +72,66 @@ body {
 .about-text span{
   color: #6e1d1d;
 }
+.button-link {
+  width: 14rem;
+  height: 5rem;
+  font-size: 15px;
+  line-height: 7rem;
+  font-family: "holaholo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.3s;
+  border: none;
+  
+}
+.button-link p{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-link::before,
+.button-link::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
 
+.button-link::before {
+    background-color: white;
+    z-index: -1;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.button-link::after {
+    background-color: #6e1d1d;
+    transform: translate(1.5rem, 1.5rem);
+    z-index: -2;
+}
+
+.button-link:hover {
+    transform: translate(1.5rem, 1.5rem);
+    color: white;
+}
+
+.button-link:hover::before {
+    background-color: #6e1d1d;
+}
+
+.button-link:hover::after {
+    background-color: white;
+    transform: translate(-1.5rem, -1.5rem);
+}
+@media screen and (max-width: 768px) {
+  .button-link{
+    display: none;
+  }
+}
 /* Footer */
 footer {
   font-family: "holaholo", sans-serif;
