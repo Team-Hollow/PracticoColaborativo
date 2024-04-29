@@ -1,135 +1,292 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Series</title>
-    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/series.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
-    <script src="https://kit.fontawesome.com/b9609ad0eb.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
 
-<body class="d-flex flex-column min-vh-100">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark">
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
-            <!-- Navbar Logo -->
-            <a class="navbar-brand d-md-none" href="index.html">
-                <img src="assets/img/logo.png"></a>
-            <!-- Navbar Logo -->
+          <!-- Navbar Logo -->
+          <a
+            class="navbar-brand rounded mx-auto d-block navbar-brand d-md-none"
+            href="index.html"
+          >
+            <img src="assets/img/logo2.png"
+          /></a>
+          <!-- Navbar Logo -->
 
-            <!-- Navbar Togggle -->
-            <button class=" navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars fa-lg"></i>
-            </button>
-            <!-- Navbar Togggle -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Navbar Links -->
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-end" aria-current="page" href="index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item text-end mx-3">
-                        <a class="nav-link" href="series.html">SERIES</a>
-                    </li>
-                    <!-- Navbar Links -->
+          <!-- Navbar Togggle -->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fa-lg"></i>
+          </button>
+          <!-- Navbar Togggle -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Navbar Links -->
+            <ul class="d-flex justify-content-center navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-end"
+                  aria-current="page"
+                  href="index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item text-end">
+                <a class="nav-link" href="series.html">SERIES</a>
+              </li>
+              <!-- Navbar Links -->
 
-                    <!-- Navbar Logo -->
-                    <a class="navbar-brand d-none d-md-block" href="#">
-                        <img src="assets/img/logo.png">
-                    </a>
-                    <!-- Navbar Logo -->
+              <!-- Navbar Logo -->
+              <a class="navbar-brand d-none d-md-block" href="#">
+                <img src="assets/img/logo2.png" />
+              </a>
+              <!-- Navbar Logo -->
 
-                    <!-- Navbar Links -->
-                    <li class=" nav-item mr-3">
-                        <a class="nav-link" href="about.html">NOSOTROS</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link" href="contact.html">CONTACTO</a>
-                    </li>
-                </ul>
-                <!-- Navbar Links -->
-            </div>
+              <!-- Navbar Links -->
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACTO</a>
+              </li>
+            </ul>
+            <!-- Navbar Links -->
+          </div>
         </div>
-    </nav>
-    <!-- Navbar -->
+      </nav>
+      <!-- Navbar -->
+    </header>
 
     <!-- Main -->
-    <div class="container flex-fill">
-
-    </div>
+    <main class="container-fluid flex-fill">
+      <div class="container text-center">
+        <!--Portadas con cards-->
+        <div class="row g-3 p-3">
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/corajePerro.jpg"
+                class="card-img-top rounded-2"
+                alt="CorajePerro"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/billyMandy.jpg"
+                class="card-img-top rounded-2"
+                alt="BillyMandy"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/vajaPollito.jpg"
+                class="card-img-top rounded-2"
+                alt="VacaPollito"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/dexters.jpg"
+                class="card-img-top rounded-2"
+                alt="Dexters"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/edEddy.jpg"
+                class="card-img-top rounded-2"
+                alt="Ed,Edd y Eddy"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/heyArnold.jpg"
+                class="card-img-top rounded-2"
+                alt="HeyArnold"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/kndBarrio.jpg"
+                class="card-img-top rounded-2"
+                alt="KND Barrio"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/avatarAang.jpg"
+                class="card-img-top rounded-2"
+                alt="Avatar: Leyenda de Aang"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/rocketPower.jpg"
+                class="card-img-top rounded-2"
+                alt="Rocket Power"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/castoresCascarrabiass.jpg"
+                class="card-img-top rounded-2"
+                alt="Castores Cascarrabias"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/BrandyyelSrBigotes.jpg"
+                class="card-img-top rounded-2"
+                alt="Brandy y el Sr.Bigotes"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <div class="card w-100">
+              <img
+                src="assets/img/galeria/yinyanyo.jpg"
+                class="card-img-top rounded-2"
+                alt="Mansion Foster"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start6">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center align-items-center p-4 border-bottom top-f">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Síguenos en nuestras redes sociales:</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div class="iconos">
-                <a href="" class="me-4 text-reset"> <i class="fab fa-facebook-f"></i></a>
-                <a href="" class="me-4 text-reset"> <i class="fab fa-twitter"></i></a>
-                <a href="" class="me-4 text-reset"> <i class="fab fa-google"></i></a>
-                <a href="" class="me-4 text-reset"> <i class="fab fa-instagram"></i></a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-        <section>
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3 border-0">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <!-- Content -->
-                        <a href=""><img src="" alt="" /></a>
-                        <p>“Revive tu infancia, un dibujo a la vez” - Un portal al pasado para los amantes de los
-                            dibujos animados. ¡Disfruta de tus favoritos de siempre! 😊</p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 f-links">
-                        <!-- Links -->
-                        <p>
-                            <a href="about.html" class="text-reset text-decoration-none">Sobre Nosotros</a>
-                        </p>
-                        <p>
-                            <a href="contact.html" class="text-reset text-decoration-none">Contacto</a>
-                        </p>
-                        <p>
-                            <a href="condiciones.html" class="text-reset text-decoration-none">Términos y
-                                Condiciones</a>
-                        </p>
-                        <p>
-                            <a href="privacidad.html" class="text-reset text-decoration-none">Política de Privacidad</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-        <!-- Copyright -->
-        <div class="text-center p-4 copyright">
-            © 2024 Copyright:
-            <a class="text-reset fw-bold" href="https://github.com/Team-Hollow">Team Hollow</a>
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center align-items-center p-4 border-bottom top-f"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Síguenos en nuestras redes sociales:</span>
         </div>
-        <!-- Copyright -->
+        <!-- Left -->
+
+        <!-- Right -->
+        <div class="iconos">
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="" class="me-4 text-reset"> <i class="fab fa-twitter"></i></a>
+          <a href="" class="me-4 text-reset"> <i class="fab fa-google"></i></a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section>
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3 border-0">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <a href=""><img src="" alt="" /></a>
+              <p>
+                “Revive tu infancia, un dibujo a la vez” - Un portal al pasado
+                para los amantes de los dibujos animados. ¡Disfruta de tus
+                favoritos de siempre! 😊
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 f-links">
+              <!-- Links -->
+              <p>
+                <a href="about.html" class="text-reset text-decoration-none"
+                  >Sobre Nosotros</a
+                >
+              </p>
+              <p>
+                <a href="contact.html" class="text-reset text-decoration-none"
+                  >Contacto</a
+                >
+              </p>
+              <p>
+                <a
+                  href="condiciones.html"
+                  class="text-reset text-decoration-none"
+                  >Términos y Condiciones</a
+                >
+              </p>
+              <p>
+                <a
+                  href="privacidad.html"
+                  class="text-reset text-decoration-none"
+                  >Política de Privacidad</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+      <!-- Copyright -->
+      <div class="text-center p-4 copyright">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="https://github.com/Team-Hollow"
+          >Team Hollow</a
+        >
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b9609ad0eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
