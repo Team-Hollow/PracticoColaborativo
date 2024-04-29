@@ -3,16 +3,23 @@
 @import url("https://fonts.cdnfonts.com/css/acme");
 @import url("https://fonts.cdnfonts.com/css/baksosapi-pro");
 @import url("https://fonts.cdnfonts.com/css/holaholo");
+@import url('https://fonts.cdnfonts.com/css/lcd');
 
 /* Body */
 body {
-  background-color: #d3b98b !important;
+  background: url(img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  ;
 }
 
 /* Navbar */
 .navbar {
   min-height: 100px;
-  background: #2a4456;
+  background: #9b111e;
+  box-shadow: 2px 2px 10px black;
 }
 .navbar-brand {
   margin: 0 !important;
@@ -30,13 +37,54 @@ body {
   font-family: "holaholo", sans-serif;
   color: #eaded0;
   font-size: 25px !important;
-  font-size: 1.1em;
+  font-weight: 500;
   padding: 0.5em 1em;
 }
 .nav-link:hover {
-  color: #58a7a2 !important;
+  color: #dba134 !important;
   transition: 0.1s linear;
 }
+
+/* Main */
+
+iframe{
+  pointer-events: none;
+}
+.tv{
+  position: relative;
+  margin-top: 130px;
+  margin-bottom: 130px;4
+}
+.tv img{
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 500px;
+  height: 350px;
+  box-shadow: 1px 1px 15px 5px black;
+}
+.tv .filter{
+  position: absolute;
+  mix-blend-mode: lighten;
+  opacity: .5;
+  z-index: 1;
+  top: 0;
+  width: 500px;
+  height: 350px;
+}
+.tv iframe{
+  position: relative;
+  z-index: 0;
+}
+.titulo{
+  position: absolute;
+  z-index: 3;
+  top: 50px;
+  font-family: "LCD", sans-serif;
+  color: rgba(50, 254, 49,.9);
+  text-shadow: 1px 1px 2px black ;
+}
+
 
 /* Footer */
 footer {
@@ -49,19 +97,19 @@ footer {
   font-size: 1.5rem;
 }
 .fab:hover {
-  color: #d3b98b;
+  color: #dba134;
   transition: 0.1s linear;
 }
 .f-links p:hover {
   text-decoration: underline;
-  color: #d3b98b;
+  color: #dba134;
   transition: 0.1s linear;
 }
 .copyright {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .copyright a:hover {
-  color: #d3b98b !important;
+  color: #dba134 !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -75,5 +123,5 @@ footer {
 }
 
 :root {
-  --bs-border-color: #eaded0 !important;
+  --bs-border-color: #dba134 !important;
 }
