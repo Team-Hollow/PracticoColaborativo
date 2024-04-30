@@ -73,4 +73,5 @@ footer {
 
 :root {
   --bs-border-color: #eaded0 !important;
+  --bs-body-bg: #eaded0 !important;
 }

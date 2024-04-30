@@ -1,11 +1,11 @@
 /* Body */
 body {
-  background: rgb(83, 135, 172);
+  background: rgb(83, 135, 172) !important;
   background: linear-gradient(
     83deg,
     rgba(74, 121, 154, 1) 64%,
     rgba(234, 222, 208, 1) 100%
-  );
+  ) !important;
 }
 
 /* Main */
